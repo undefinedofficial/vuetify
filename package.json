@@ -1,5 +1,5 @@
 {
-  "name": "@vuetify/vuetify-root",
+  "name": "vuetify",
   "type": "module",
   "private": true,
   "repository": {

@@ -72,7 +72,7 @@ export function useTouch ({
     const touchX = e.changedTouches[0].clientX
     const touchY = e.changedTouches[0].clientY
 
-    const touchZone = 25
+    const touchZone = 40;
     const inTouchZone: boolean =
       position.value === 'left' ? touchX < touchZone
       : position.value === 'right' ? touchX > document.documentElement.clientWidth - touchZone
